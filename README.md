@@ -1,6 +1,13 @@
 # android-activity-life-cycle
 This demonstrate the activity life cycle in Android.
 
+<b>WHY to understand the life cycle of an activity?</b><br>
+Implementing your activity lifecycle methods properly ensures your app behaves well in several ways,including that it.
+* Does not crash if the user receives a phone call or switches to another app while using your app.<br>
+* Does not consume valuable system resources when the user is not actively using it.<br>
+* Does not lose the user's progress if they leave your app and return to it at a later time.<br>
+* Does not crash or lose the user's progress when the screen rotates between landscape and portrait orientation.<br>
+
 The following diagram shows the important state paths of an Activity.<br>
 Screenshot1<br>
 [![activyt-life-cycle.jpg](https://s19.postimg.org/dkaug8rgz/activyt_life_cycle.jpg)](https://postimg.org/image/76lrczmkv/)
