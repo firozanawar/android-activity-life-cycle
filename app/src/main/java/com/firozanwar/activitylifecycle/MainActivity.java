@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Set the user interface layout for this Activity
+        // The layout file is defined under res/layout/ file
         setContentView(R.layout.activity_main);
         Log.d(TAG, "The onCreate() called");
     }
@@ -63,6 +66,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         Log.d(TAG, "The onStop() called");
+    }
+
+    /**
+     * Called when the activity is restarted.
+     */
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d(TAG, "The onRestart() called");
     }
 
     /**
