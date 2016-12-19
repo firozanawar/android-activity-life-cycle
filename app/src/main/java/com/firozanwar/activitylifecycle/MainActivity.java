@@ -1,12 +1,21 @@
+/*
+ *  Copyright : Copyright 2016 firozanwar.com, all rights reserved.
+ *  Any unauthorized use of this code is punishable offense by law. If
+ *  you are reading this code, and you are not authorized to do so,
+ *  please close the code, and delete all the copies of it.
+ *
+ *  This is completely open source contribution based on research and learning.
+ *  No company code and time used for creating this project.
+ */
 package com.firozanwar.activitylifecycle;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG="activity-life-cycle";
+    private static final String TAG = "activity-life-cycle";
 
     /**
      * Called when the activity is first created.
