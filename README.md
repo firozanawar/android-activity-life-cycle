@@ -44,3 +44,4 @@ Here are some useful links for more details.
 
 <b>Points</b>
 * Starting with Honeycomb, an application is not in the killable state until its onStop() has returned.
+* finish() from within onCreate() to destroy the activity. In this case, the system immediately calls onDestroy() without calling any of the other lifecycle methods.
