@@ -2,7 +2,11 @@
 This demonstrate the activity life cycle in Android.
 
 The following diagram shows the important state paths of an Activity.<br>
+Screenshot1<br>
 [![activyt-life-cycle.jpg](https://s19.postimg.org/dkaug8rgz/activyt_life_cycle.jpg)](https://postimg.org/image/76lrczmkv/)
+
+Screenshot2<br>
+[![android-activity-life-cycle2.png](https://s19.postimg.org/ld63lymtv/android_activity_life_cycle2.png)](https://postimg.org/image/64g686t5b/)
 
 # Introduction:-
 As a user navigates through, out of, and back to your app, the Activity instances in your app transition between different states in their lifecycle.The activity has a sequence of callbacks methods which get called when the activity get launched. The first method is onCreate(). This method get called as soon the activity is first created. Generally the onCreate() method is to loads all the UI component using the XML file available in res/layout folder of the project.
